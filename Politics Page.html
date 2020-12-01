@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Politics Page</title>
+    <link rel="stylesheet" href="News_Style.css" type="type/css"/>
+   
+</head>
+
+<body style=background:black;>
+    <header id="header">
+       <table>
+        <tr>
+            
+        <td><table>
+            <tr>
+                <td><h2>Location:</h2></td>
+                <td><div class="dropdown">
+                    <button class="selectPoint">Dropdown</button>
+                        <div class="options">
+                            <a href="#">Aberdeen</a>
+                            <a href="#">Glasgow</a>
+                            <a href="#">Edinburgh</a>
+                        </div>
+                    </div></td>
+                <td><div class="dropdown">
+                        <button class="selectPoint">Language</button>
+                            <div class="options">
+                                <a href="#">English</a>
+                                <a href="#">French</a>
+                                <a href="#">German</a>
+                            </div>
+                </div></td>
+            </tr>
+            <tr class="head-link">
+                <td><a href="#">Lastest News</a></td>
+                <td><a href="#">Sports</a></td>
+                <td><a href="#">Health</a></td>
+                <td><a href="#">Politics</a></td>
+            </tr>
+        </table></td>
+        
+        <td><img src="https://ak.picdn.net/shutterstock/videos/7613365/thumb/1.jpg" alt="Logo" width="350" height="150"></td>
+        
+        <td><table>
+            <tr>
+                <td><div class="dropdown">
+                    <button class="selectPoint">News Channels</button>
+                        <div class="options">
+                            <a href="#">BBC News</a>
+                            <a href="#">Channel 4 News</a>
+                            <a href="#">ITV News</a>
+                        </div>
+                </div></td>
+                <td><a href="#">Home</a></td>
+                <td><div class="topnav">
+                    <input type="text" placeholder="Search here">
+                </div></td>
+                <td><a href="#">
+                    <img src="https://www.dentalglasgow.co.uk/wp-content/uploads/2017/01/profile-silhouette.jpg" alt="login page" width="50" height="50">
+                </a></td>
+            </tr>
+               
+            <tr>
+                <td><a href="#">Entertainment</a></td>
+                <td><a href="#">My Programs</a></td>
+                <td><a href="#">More</a></td>
+            </tr>
+            </table></td>
+        </table>     
+    </header>
+    
+    <main>
+        <section class="mainPol">
+            <h1>Politics, News and Information</h1>
+            <img src="https://ichef.bbci.co.uk/news/800/cpsprodpb/147FB/production/_115736938_tv064586278.jpg">
+            <p>UK-EU trade talks: UK still committed to EU deal as differences remain<p>
+            <table>
+                <tr>
+                    <td>News Channel</td>
+                    <td>Time(s)</td>
+                </tr>
+                <tr>
+                    <td>BBC News</td>
+                    <td>9:00,13:00,18:00,22:00</td>
+                </tr>
+                <tr>
+                    <td>ITV News</td>
+                    <td>13:30,18:00</td>
+                </tr>
+                <tr>
+                    <td>Channel 4 News</td>
+                    <td>19:00</td>
+                </tr>
+                <tr>
+                    <td>Sky News</td>
+                    <td>12:00</td>
+                </tr>
+            </table>    
+        </section>
+    
+        <section>
+            <div class="slideshow-container">
+
+              <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="img1.jpg" style="width:100%">
+                <div class="text">Caption Text</div>
+              </div>
+
+              <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="img2.jpg" style="width:100%">
+                <div class="text">Caption Two</div>
+              </div>
+
+              <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="img3.jpg" style="width:100%">
+                <div class="text">Caption Three</div>
+              </div>
+
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+           <script>
+            var slideIndex = 0;
+            showSlides();
+
+            function showSlides() {
+              var i;
+              var slides = document.getElementsByClassName("mySlides");
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+              }
+              slideIndex++;
+              if (slideIndex > slides.length) {slideIndex = 1}
+              slides[slideIndex-1].style.display = "block";
+              setTimeout(showSlides, 2000); // Change image every 2 seconds
+            }
+                
+            </script>    
+            <h3>Current Covid Numbers(Daily Updates)</h3>
+            <p>UK Total Cases: <br>Uk Total Deaths:<br>Scotland Total Cases: <br>Scotland Total Deaths: <br>Worldwide Total Cases: <br> Worldwide Death Count:<p>
+        </section>
+    </main>
+    
+    <footer class="footer">
+        <pre><a href="#">Terms of Use</a> <a href="#">Privacy Policy</a> <a href="#">Manage Cookies+</a> <a href="#">Ad Choices</a> <a href="#">About Us</a> <a href="#">Advertise with Us</a> <a href="#">Site Map</a> <a href="#">License Footage</a>        Follow Us On: <a href="https://en-gb.facebook.com/"><img src="https://www.vectorico.com/download/social_media/Facebook-Logo.jpg" width="20" height="20"></a> <a href="https://twitter.com/?lang=en-gb"><img src="https://3.bp.blogspot.com/-NxouMmz2bOY/T8_ac97cesI/AAAAAAAAGg0/e3vY1_bdnbE/s320/Twitter+logo+2012.png" width="20" height="20"></a> <a href="https://www.instagram.com/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/1200px-Instagram_logo_2016.svg.png" width="20" height="20"></a> <a href="https://www.youtube.com/"><img src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c545.png" width="30" height="20"></a></pre>
+        <pre>All Rights Reserved          <a href="#">Contact Us</a>                                                   Mobile App:<a href="#"><img src="https://i.pinimg.com/originals/a4/94/c0/a494c0ee797e5dc19fb3b85e8d9391c1.png" width="20" height="20"S></a><a href="#"><img src="https://journalrenew.weebly.com/uploads/1/2/4/8/124895993/537346138.png" width="20" height="20"></a></pre>
+    </footer>
+</body>
+</html>
